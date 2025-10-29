@@ -9,8 +9,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
         with:
-          with:
-            distribution: temurin,
+            distribution: temurin
             java-version: '17'
       - name: build
         run: mvn verify
